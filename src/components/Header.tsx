@@ -23,6 +23,7 @@ const Header: React.FC = () => {
 
   return (
     <Box
+      id="home"
       component='div'
       sx={{
         backgroundColor: 'background.main',
@@ -53,7 +54,7 @@ const Header: React.FC = () => {
           }}
         >
           <Link
-            href="/"
+            href="#home"
             sx={{
               fontFamily: 'Inter',
               fontSize: '16px',
@@ -68,7 +69,7 @@ const Header: React.FC = () => {
             Home
           </Link>
           <Link
-            href="/"
+            href="#about-us"
             sx={{
               fontFamily: 'Inter',
               fontSize: '16px',
@@ -83,7 +84,7 @@ const Header: React.FC = () => {
             Sobre nós
           </Link>
           <Link
-            href="/"
+            href="#solutions"
             sx={{
               fontFamily: 'Inter',
               fontSize: '16px',
@@ -98,7 +99,7 @@ const Header: React.FC = () => {
             Soluções
           </Link>
           <Link
-            href="/"
+            href="#contact"
             sx={{
               fontFamily: 'Inter',
               fontSize: '16px',
@@ -141,6 +142,7 @@ const Header: React.FC = () => {
               height: '48px',
               borderRadius: '8px',
             }}
+            onClick={() => window.location.href = '#contact'}
           >
             <Typography
               sx={{

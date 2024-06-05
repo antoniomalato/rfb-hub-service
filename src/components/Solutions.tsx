@@ -11,7 +11,7 @@ const Solutions: React.FC = () => {
   const matches = useMediaQuery("(max-width:768px)");
 
   return (
-    <Box sx={{ textAlign: "left", padding: matches ? '10px 47px' : '0' }}>
+    <Box id="solutions" sx={{ textAlign: "left", padding: matches ? '10px 47px' : '0' }}>
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6} md={4}>
           <Box sx={{ margin: matches ? '0 12px' : "0", background: 'background.main', borderRadius: '12px', padding: '16px', boxShadow: "10px 2px 41px 46px rgba(207,166,166,0.08)" }}>

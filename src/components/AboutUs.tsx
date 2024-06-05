@@ -14,6 +14,7 @@ const AboutUs: React.FC = () => {
     <>
       <Box
         component='div'
+        id="about-us"
         sx={{
           backgroundColor: 'background.main',
           justifyContent: 'center',

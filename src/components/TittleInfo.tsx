@@ -53,15 +53,13 @@ const TittleInfo: React.FC = () => {
           Desbloqueando o Potencial dos Dados e da Nuvem para Empresas
         </Typography>
         <Box
-          sx={{ width: matches ? '344px' : '533px', height: matches ? '40px' : '48px', textAlign: 'center', display: 'flex', justifyContent: 'space-between', margin: '0 auto', paddingTop: '48px' }}
+          sx={{ width: matches ? '344px' : '533px', height: matches ? '40px' : '48px', textAlign: 'center', margin: '0 auto', paddingTop: '48px' }}
         >
           <Button
             sx={{ whiteSpace: 'nowrap', width: matches ? '162px' : '257px', height: matches ? '40px' : '48px', fontWeight: 600, borderRadius: '8px', textTransform: 'none' }}
             variant='contained'
+            onClick={() => window.location.href = '#contact'}
           >Agende uma reunião</Button>
-          <Button
-            sx={{ whiteSpace: 'nowrap', width: matches ? '162px' : '257px', height: matches ? '40px' : '48px', backgroundColor: '#fff', fontWeight: 600, borderRadius: '8px', color: 'primary.main', textTransform: 'none', border: '1px solid #0070F4' }}
-          >Conhecer as soluções</Button>
         </Box>
       </Box>
     </Box>

@@ -11,7 +11,9 @@ const Deal: React.FC = () => {
   const matches = useMediaQuery("(max-width:768px)");
 
   return (
-    <Box sx={{
+    <Box 
+      id="contact"
+      sx={{
       position: 'relative',
       height: '600px',
       overflow: 'visible',
